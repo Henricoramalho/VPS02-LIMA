@@ -1,0 +1,135 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.header {
+  background-color: #000; 
+  color: #FFF; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex: 1;
+  max-width: 500px;
+  margin: 0 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #FFF;
+  border-radius: 4px;
+  background-color: #000; 
+  color: #FFF; 
+}
+
+.search-bar button {
+  background-color: #FFF; 
+  color: #000; 
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #FFF; 
+  font-size: 14px;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.cart {
+  padding: 20px;
+  background-color: #FFF; 
+}
+
+.cart h2 {
+  text-align: center;
+  color: #000; 
+}
+
+.cart table {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #FFF; 
+}
+
+.cart table th,
+.cart table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #000; 
+  color: #000; 
+}
+
+.cart table th {
+  background-color: #000; 
+  color: #FFF; 
+}
+
+.cart table tfoot td {
+  font-weight: bold;
+  border-top: 2px solid #000; 
+}
+
+
+.btn-checkout {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #000; 
+  color: #FFF; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-checkout:hover {
+  background-color: #333; 
+}
+
+
+.footer {
+  background-color: #000; 
+  color: #FFF; 
+  text-align: center;
+  padding: 10px 0;
+}
+
+.user-actions .icon {
+  text-decoration: none; 
+  color: #FFF; 
+  font-size: 14px;
+  margin-left: 10px;
+}
